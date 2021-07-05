@@ -41,8 +41,10 @@ function App() {
 
       }} />
 
-    <Navbar />
-    <Header />
+      <Navbar />
+      <Header />
+
+
     </>
   );
 }

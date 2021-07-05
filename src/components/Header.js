@@ -6,15 +6,15 @@ export const Header = () => {
     return (
        <div className="header-wraper">
            <div className="main-info">
-               <h1> Desarrollo Web  ñññññ</h1>
+               <h1> Menús Digitales</h1>
                 <Typed 
                 className="typed-text"
-                strings={["Wev Design", "Web Development", "Facebook Ads"]}
+                strings={["Web Design", "Web Development", "Facebook Ads"]}
                 typeSpeed={40}
                 backSpeed={60}
                 loop
                 />
-                <a href="" className="btn-main-offer">Contactame</a>
+                <a className="btn-main-offer" href="#">Contactame</a>
            </div>
 
        </div> 
