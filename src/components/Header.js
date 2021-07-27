@@ -1,23 +1,36 @@
 import React from 'react';
 import Typed from "react-typed";
 
+import foto from '../foto.jpg';
+import { Puntos } from '../helpers/Puntos';
 
 export const Header = () => {
     return (
-       <div className="header-wraper">
-           <div className="main-info">
-               <h1> Menús Digitales</h1>
-                <Typed 
-                className="typed-text"
-                strings={["Web Design", "Web Development", "Facebook Ads"]}
-                typeSpeed={40}
-                backSpeed={60}
-                loop
-                />
-                <a className="btn-main-offer" href="#">Contactame</a>
-           </div>
-
-       </div> 
+        <>
+            <Puntos />
+            <div className="header-wraper" id="inicio">
+                <div >
+                    
+                </div>
+                <div className="main-info">
+                <img 
+                        src={foto} 
+                        alt="logo-github"
+                        className="imgRedonda mx-auto d-block" 
+                    />
+                    <h1 > Erasmo de Jesús</h1>
+                        <Typed 
+                        className="typed-text"
+                        strings={["DESAROLLADOR", "REACT", "REDUX"]}
+                        typeSpeed={40}
+                        backSpeed={60}
+                        loop
+                        />
+                       
+                </div>
+                
+            </div> 
+        </>
     )
 }
 
