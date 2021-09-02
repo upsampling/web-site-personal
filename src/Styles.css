@@ -96,8 +96,8 @@ nav ul li{
 
 .header-wraper{
   /* margin-top: 10vh; */
+  background: var(--image-fondo);
   position: relative;
-  background: var(--image-fondo) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;

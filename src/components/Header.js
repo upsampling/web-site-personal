@@ -3,7 +3,7 @@ import Typed from "react-typed";
 
 import foto from '../static/foto.jpg';
 import { Puntos } from '../helpers/Puntos';
-import fondo2 from '../static/fondo2.jpg';
+// import fondo2 from '../static/fondo2.jpg';
 
 export const Header = () => {
     return (
