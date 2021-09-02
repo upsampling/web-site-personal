@@ -6,10 +6,10 @@ export const Contacto = () => {
         <br/>
         <div className="container">
 
-            <blockquote class="blockquote text-end" >
-            <p class="mb-0">5.6 Los límites de mi lenguaje significan los límites de mi mundo.</p>
+            <blockquote className="blockquote text-end" >
+            <p className="mb-0">5.6 Los límites de mi lenguaje significan los límites de mi mundo.</p>
             <br/>
-            <footer class="blockquote-footer" id="trayectoria"> <cite title="Source Title">Ludwing Wittgenstein</cite></footer>
+            <footer className="blockquote-footer" id="trayectoria"> <cite title="Source Title">Ludwing Wittgenstein</cite></footer>
             </blockquote >
         </div>
 
