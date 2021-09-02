@@ -1,5 +1,5 @@
 import React from 'react'
-import foto from '../yo.jpeg';
+import foto from '../static/yo.jpeg';
 
 export const Trayectoria = () => {
     return (

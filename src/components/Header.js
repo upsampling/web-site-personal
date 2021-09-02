@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from "react-typed";
 
-import foto from '../foto.jpg';
+import foto from '../static/foto.jpg';
 import { Puntos } from '../helpers/Puntos';
 
 export const Header = () => {
